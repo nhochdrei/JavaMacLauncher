@@ -3,10 +3,14 @@
     <module name="JavaMacLauncher" />
     <working_directory value="$PROJECT_DIR$" />
     <go_parameters value="-o ../target/JavaMacLauncher" />
-    <kind value="DIRECTORY" />
-    <filePath value="$PROJECT_DIR$/src/JavaMacLauncher.go" />
-    <package value="main" />
+    <envs>
+      <env name="CGO_CFLAGS" value="-mmacosx-version-min=11.6" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="github.com/nhochdrei/JavaMacLauncher" />
     <directory value="$PROJECT_DIR$/src" />
+    <filePath value="$PROJECT_DIR$/src/JavaMacLauncher.go" />
+    <output_directory value="target" />
     <option name="run" value="false" />
     <method v="2" />
   </configuration>

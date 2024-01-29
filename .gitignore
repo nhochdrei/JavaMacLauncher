@@ -1,6 +1,8 @@
 /.env
-/target
-/testing/Contents/MacOS
+/target/*
+!/target/.keep
+/testing.app/Contents/MacOS/*
+!/testing.app/Contents/MacOS/.keep
 
 
 #

@@ -1,8 +1,8 @@
-module openindex.de/JavaMacLauncher
+module github.com/nhochdrei/JavaMacLauncher
 
-go 1.16
+go 1.21
 
 require (
-	github.com/progrium/macdriver v0.0.2
-	howett.net/plist v0.0.0-20201203080718-1454fab16a06
+	github.com/progrium/macdriver v0.4.0
+	howett.net/plist v1.0.1
 )
